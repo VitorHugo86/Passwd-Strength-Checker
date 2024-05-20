@@ -1,40 +1,40 @@
 # Password Strength Checker
 
-Este projeto é um verificador de força de senha em Python. Ele avalia a força de uma senha com base em vários critérios e também verifica se a senha está em uma lista de senhas comuns.
+This project is a password strength checker in Python. It evaluates the strength of a password based on several criteria and also checks if the password is in a list of common passwords.
 
-## Funcionalidades
+## Features
 
-- Verifica se a senha contém:
-  - Pelo menos 6 caracteres
-  - Pelo menos uma letra minúscula
-  - Pelo menos uma letra maiúscula
-  - Pelo menos um dígito
-  - Pelo menos um caractere especial
-- Verifica se a senha está em uma lista de senhas comuns (`commons.txt`)
-- Informa ao usuário a força da senha (fraca, média, forte)
-- Permite que o usuário verifique várias senhas em sequência
-- Tratamento de erros para entrada de usuário e leitura de arquivos
+- Checks if the password contains:
+  - At least 6 characters
+  - At least one lowercase letter
+  - At least one uppercase letter
+  - At least one digit
+  - At least one special character
+- Checks if the password is in a list of common passwords (`commons.txt`)
+- Informs the user of the password's strength (weak, medium, strong)
+- Allows the user to check multiple passwords in sequence
+- Error handling for user input and file reading
 
-## Como Usar
+## How to Use
 
-1. Clone este repositório:
+1. Clone this repository:
     ```bash
-    git clone https://github.com/seu-usuario/password-strength-checker.git
+    git clone https://github.com/your-username/password-strength-checker.git
     cd password-strength-checker
     ```
 
-2. Certifique-se de ter o Python instalado na sua máquina (versão 3.x).
+2. Ensure you have Python installed on your machine (version 3.12.0).
 
-3. Crie um arquivo `commons.txt` na raiz do projeto contendo uma lista de senhas comuns, com uma senha por linha.
+3. Create a file named `commons.txt` in the project's root directory containing a list of common passwords, one password per line.
 
-4. Execute o script:
+4. Run the script:
     ```bash
-    python password_checker.py
+    python3 password_checker.py
     ```
 
-5. Siga as instruções na tela para inserir e verificar senhas.
+5. Follow the on-screen instructions to enter and check passwords.
 
-## Estrutura do Projeto
+## Project Structure
 
-- `password_checker.py`: Arquivo principal do script que contém as funções para verificar a força da senha e a lógica principal do programa.
-- `commons.txt`: Arquivo de texto contendo a lista de senhas comuns (uma senha por linha).
+- `password_checker.py`: The main script file that contains the functions for checking password strength and the main program logic.
+- `commons.txt`: A text file containing the list of common passwords (one password per line).
