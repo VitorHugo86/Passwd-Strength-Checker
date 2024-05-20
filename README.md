@@ -29,7 +29,7 @@ This project is a password strength checker in Python. It evaluates the strength
 
 4. Run the script:
     ```bash
-    python3 password_checker.py
+    python3 main.py
     ```
 
 5. Follow the on-screen instructions to enter and check passwords.
